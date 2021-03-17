@@ -6,4 +6,12 @@
 # include <stdlib.h>
 # include "libft/libft.h"
 
+typedef struct		s_sh
+{
+
+}					t_sh;
+
+void 	parser(t_sh *sh);
+void 	executor(t_sh *sh);
+
 #endif
