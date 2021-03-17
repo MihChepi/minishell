@@ -6,6 +6,11 @@
 # include <stdlib.h>
 # include "libft/libft.h"
 
+typedef struct 		s_token
+{
+
+}					t_token;
+
 typedef struct		s_sh
 {
 
