@@ -5,6 +5,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include "libft/libft.h"
+# include "get_next_line/get_next_line.h"
 
 
 typedef struct 		s_token
@@ -16,7 +17,7 @@ typedef struct 		s_token
 typedef struct		s_sh
 {
 	char 			(*hist)[10];
-	t_list			*token;
+	t_list			*t;
 }					t_sh;
 
 void 	parser(t_sh *sh);

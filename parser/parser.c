@@ -1,7 +1,15 @@
 #include "../minishell.h"
-#include ""
+
+void 	create_tokens(char *line, t_sh *sh)
+{
+	while(ft_)
+}
+
 void 	parser(t_sh *sh)
 {
-	if(!(read(0, buf, 1))
+	char *line;
 
+	if (get_next_line(0, &line) == -1)
+		error("GNL_fail", 1);
+	create_tokens(line, sh);
 }
