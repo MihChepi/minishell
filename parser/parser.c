@@ -2,7 +2,7 @@
 
 void 	create_tokens(char *line, t_sh *sh)
 {
-	while(ft_)
+	
 }
 
 void 	parser(t_sh *sh)

@@ -17,10 +17,14 @@ typedef struct 		s_token
 typedef struct		s_sh
 {
 	char 			(*hist)[10];
-	t_list			*t;
+	t_list			*token;
+	char			**envp;
 }					t_sh;
 
-void 	parser(t_sh *sh);
-void 	executor(t_sh *sh);
+
+void				error(char *str, int i);
+void 				parser(t_sh *sh);
+void 				executor(t_sh *sh);
+
 
 #endif
