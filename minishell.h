@@ -6,14 +6,17 @@
 # include <stdlib.h>
 # include "libft/libft.h"
 
+
 typedef struct 		s_token
 {
-
+	char			type[5];
+	char			*str;
 }					t_token;
 
 typedef struct		s_sh
 {
-
+	char 			(*hist)[10];
+	t_list			*token;
 }					t_sh;
 
 void 	parser(t_sh *sh);

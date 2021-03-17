@@ -4,7 +4,6 @@ int main(int argc, char **argv, char **envp)
 {
 	t_sh sh;
 
-
 	printf("Hello, World!\n");
 
 		/*
@@ -20,7 +19,6 @@ int main(int argc, char **argv, char **envp)
 		 * или вызывается системный бинарник (ls)
 		 * или наша функция pdw, unset....
 		 */
-
 	executor(&sh);
 
 	return (0);
