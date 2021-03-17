@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "minishell.h"
 
-int main()
+int main(int argc, char **argv, char **envp)
 {
 	printf("Hello, World!\n");
-	return 0;
+	return (0);
 }
